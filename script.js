@@ -45,13 +45,13 @@ $('.zn-product').each( async function (i, item) {
 
 async function getprice(productid){
    var main;
- var Country_code = localStorage.getItem("Country_code");
+
 var data11 = await fetch('/graphql', {
         method: 'POST',
         mode: 'cors',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer {{ settings.storefront_api.token }}`
+            'Authorization': `Bearer ${tokken}`
         },
         body: JSON.stringify({
             query: `
