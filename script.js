@@ -4,12 +4,12 @@ $('.zn-product').each( async function (i, item) {
     var productid = $(this).data('product-id-ins');
      if(productid)
      {
-         //console.log('productid ', productid)
+         console.log('productid ', productid)
      }
      else
      {
          productid = $('.zn-product-cart-button',item).attr('data-product-id');
-         //console.log('productid ', productid)
+         console.log('productid ', productid)
      }
     var img = $(this).find('.zn-product-image img').attr("src");
       if(img) {
