@@ -13,11 +13,7 @@ class WelcomeBack extends React.Component {
         seller_type = localStorage.getItem('seller_type')
         console.log("react output",country_code)
         if (country_code) {
-            $('.featerdproduct').each(async function(i, item) {
-                var sku = $(item).data('sku');
-                var prid = $(item).data('product-id');
-                console.log("react output 2",sku,prid)
-            })
+            console.log("react output if",country_code)
         }
         return(
             <>
