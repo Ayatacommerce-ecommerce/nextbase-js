@@ -1,4 +1,3 @@
-console.log("skutokken  {{ settings.storefront_api.token }}")
 
 // price change all zeno button 
 var pricechange_zeno =  (Country_code,tokken) => { 
