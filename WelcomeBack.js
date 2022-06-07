@@ -8,6 +8,8 @@ class WelcomeBack extends React.Component {
     }
 
     render(){
+        country_code = localStorage.getItem('Country_code')
+        console.log("react output",country_code)
         return(
             <>
                 <h2>Hello {this.state.name || 'Friend'}! Welcome Back.</h2>
