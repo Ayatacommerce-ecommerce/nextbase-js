@@ -1,4 +1,5 @@
 var pricechange_zeno =  (Country_code,tokken) => { 
+    console.log('pricechange_zeno', Country_code)
 //price change zenobuilder
 $('.zn-product').each( async function (i, item) {
     var productid = $(this).data('product-id-ins');
