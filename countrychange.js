@@ -8,7 +8,7 @@
                localStorage.setItem('Country_code', "USD");
                localStorage.setItem('Country_sku', 'UK');
                localStorage.setItem('Country_img', '//cdn11.bigcommerce.com/s-jpkc0tnv4j/product_images/uploaded_images/usa.png');
-               localStorage.setItem('seller_type', 'S');
+               localStorage.setItem('seller_type', 'R');
                localStorage.setItem('language', "en");
                localStorage.setItem('navigation_type', "Type A");
                $('.countryimg').html(`<img src="//cdn11.bigcommerce.com/s-jpkc0tnv4j/product_images/uploaded_images/usa.png" width="24px">`);
