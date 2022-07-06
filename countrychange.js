@@ -1,3 +1,4 @@
+// <script src="//ayatacommerce-ecommerce.github.io/nextbase-js/countrychange.js" defer></script>
    //change country
    if(localStorage.getItem('Country'))
    {
